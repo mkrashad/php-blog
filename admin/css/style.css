@@ -1,0 +1,96 @@
+body{
+    background-image: url("../img/bg.jpg");
+}
+.main_border{
+    margin: auto;
+    width:690px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    margin: 15px;
+}
+
+.left{
+    background-color: #f6f6f6;
+    border-right: 1px solid #424242;
+}
+
+.title {
+    background-color: #2275AD;
+    color: #ffffff;
+    font-weight:bold;
+    margin:5px;
+    padding:5px;
+    text-align:center;
+    }
+    
+    #coolmenu{
+    border: 1px solid gray; /*Стиль рамки */
+    border-bottom-width: 0;
+    width: 93%; /*Ширина меню */
+    background-color: #f6f6f6;  /*Фоновый цвет ячейки*/
+    margin:8px; /*Ширина отступов*/
+    }
+    
+    * html #coolmenu{ 
+    width: 150px;/*Ширина меню для Internet Explorer*/
+    }
+    
+    #coolmenu a{
+    font: bold 13px Verdana; /*Шрифт текста*/
+    padding: 2px; /*Внутренний отсутп текста ссылки от краев ячейки*/
+    padding-left: 4px;/*Внутренний отсутп текста ссылки от левого края ячейки*/
+    display: block;
+    width: 100%; /*Ширина ячейки*/
+    color: #000000;  /*Цвет текста*/
+    text-decoration: none; /*Подчеркивание у ссылок - нет*/
+    border-bottom: 1px solid gray;
+    }
+    
+    html>body #coolmenu a{ 
+    width: auto;
+    }
+    
+    #coolmenu a:hover{
+    background-color: #cccccc; /*Фоновый цвет ячейки при наведение курсора*/
+    color: #000000;  /*Цвет текста при наведении курсора*/
+    }
+
+    .lesson{
+        border: 1px solid #cccccc;
+        width: 95%;
+        margin-left:3%;
+    }
+
+    .lesson_title{
+        background-color: #f6f6f6;
+    }
+
+    .lesson_name{
+        font-weight: bold;
+        margin: 7px 3%;
+    }
+
+    .lesson_adds{
+        font-size: 11px;
+        margin: 7px 3%;
+        color: #424244;
+    }
+
+    .view_title{
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        color: #cc0000;
+    }
+
+    .view_date{
+        font-size: 11px;
+        color: #424242;
+        margin: 7px 3%;
+        font-weight: bold;
+    }

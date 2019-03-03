@@ -1,0 +1,1 @@
+<td><img src="img\footer.jpg" alt="footer"></td>
